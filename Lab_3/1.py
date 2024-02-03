@@ -64,7 +64,6 @@ class Bank:
         if(self.balance>=amount):
          self.balance -= amount
          print(f"New Balance:{self.balance}")
-         
 KaspiBank=Bank(owner="Talant",balance=50000)
 KaspiBank.deposit(10000)
 KaspiBank.withdraw(20000)
@@ -81,5 +80,4 @@ newList = list(filter(lambda x:Mathematics.is_prime(x),Numbers))
 for i in newList:
     print(i)
 print("----------------------Tasks---------------------------")
-
  
