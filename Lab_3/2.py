@@ -31,7 +31,6 @@
 #         if (is_prime(num)):
 #             numlist.append(num)
 #     return numlist
-
 # input_str = input("")
 # numbers = [int(num) for num in input_str.split()]
 # result = filter_prime(numbers)
@@ -39,10 +38,8 @@
 #  print(prime,end='')
 print("----------------------Tasks---------------------------")
 # from itertools import permutations
-
 # def print_permutations(input_str):
 #     perms = permutations(input_str)
-
 #     for perm in perms:
 #        s= (''.join(perm))
 #     return s
@@ -85,5 +82,5 @@ print("----------------------Tasks---------------------------")
 # nums =input().split(" ")
 # print(has_007(nums))
 # print("----------------------Tasks---------------------------")
-
-            
+def AreaOfSphere(radius):
+    

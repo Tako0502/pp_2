@@ -7,7 +7,6 @@
         
 #     def printString(self):
 #         print(self.str.upper())
-
 # t = Test("")
 # t.getstring()
 # t.printString()
