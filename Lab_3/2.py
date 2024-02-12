@@ -24,7 +24,6 @@
 #         if num % i == 0:
 #             return False
 #     return True
-
 # def filter_prime(numbers):
 #     numlist =[]
 #     for num in numbers:
@@ -35,8 +34,8 @@
 # numbers = [int(num) for num in input_str.split()]
 # result = filter_prime(numbers)
 # for prime in result:
-#  print(prime,end='')
-print("----------------------Tasks---------------------------")
+#  print(prime,end=' ')
+# print("----------------------Tasks---------------------------")
 # from itertools import permutations
 # def print_permutations(input_str):
 #     perms = permutations(input_str)
@@ -82,5 +81,53 @@ print("----------------------Tasks---------------------------")
 # nums =input().split(" ")
 # print(has_007(nums))
 # print("----------------------Tasks---------------------------")
-def AreaOfSphere(radius):
+
+# def AreaOfSphere(radius):
+#     pi = 3.14259
+#     return 4/3*pi*radius**3
+
+# print(AreaOfSphere(3))
+# print("----------------------Tasks---------------------------")
+# def uniqueNumbers(nums):
+#     uniqueNumbers = []
+#     for num in nums:
+#         n =int(num)
+#         if n  not in uniqueNumbers:
+#              uniqueNumbers.append(n)
+#     return uniqueNumbers
+
+# nums = input().split(" ")
+# print(uniqueNumbers(nums))
+# print("----------------------Tasks---------------------------")
+# def is_palindrome(s):
+#     reversed = ""
+#     a =len(s)
+#     for i in range(len(s)-1):
+#         reversed += s[a-i-1]
+#     return reversed
+
+# s = input()
+# a=s
+# b=is_palindrome(s)
+# if a==b:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+# print("----------------------Tasks---------------------------")
+# n = input().split(" ")
+# for i in n:
+#         print('*'*int(i),end=" ")
+# print("----------------------Tasks---------------------------")
+# import random
+# randomNum = random.randint(1,20)
+# n = input("Take a guess")
+# if int(n) == randomNum:
+#     print("Yes")
+# else:
+#     print("No")
+# print("----------------------Tasks---------------------------")
+    
+
+
+        
     
