@@ -2,8 +2,6 @@ import math
 def deg2rad(deg):
     return deg * (math.pi / 180)
 
-
-
  #-------------------------Tasks---------------------------
 def trapezoidalArea(h , a, b):
     s = ((a + b)*h) / 2
