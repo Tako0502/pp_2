@@ -19,7 +19,7 @@ match_string(pattern, text)
 print("#########################################")
 
 pattern = r'\b[a-z]+_[a-z]+\b'
-text ="Hello My_Name is_Talant and i_am eightteen years_old"
+text ="Hello My_Name isTalant and i_am eightteen years_old"
 match_string(pattern, text)
 
 print("#########################################")
