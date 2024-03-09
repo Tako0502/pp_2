@@ -101,6 +101,8 @@ def generate_files():
 
     for letter in letters:
         filename = f"Hello World/{letter}.txt"
+        if(path.exists(filename)):
+            filename = f"Hello World/{letter}./{letter}.txt"
         with open(filename, 'w') as file:
             file.write(filename)
 
