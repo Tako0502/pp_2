@@ -3,6 +3,7 @@ import math
 import time
 numbers= [1,2,3,4,5,6,7,8,9,10]
 print(math.prod(numbers))
+
 #--------------------------Task---------------------------
 
 def coutString(string):

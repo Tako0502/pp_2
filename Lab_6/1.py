@@ -3,7 +3,7 @@ import os
 def list_directories_and_files(path):
     directories = []
     files = []
-    
+
     items = os.listdir(path)
     
     for item in items:

@@ -2,7 +2,7 @@ import re
 def match_string(pattern, text):
     textpart = text.split(" ")
     for i in textpart:
-     match = re.match(pattern, i)
+     match = re.match(pattern,i)
      if match:
         print(f"String {i} matches the pattern.")
      else:
